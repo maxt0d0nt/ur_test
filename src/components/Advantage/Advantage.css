@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.advantage-container{
+    position: relative;
+    
+}
+.darkbackground {
+
+    position: absolute;
+    width: 1580px;
+    height: 965px;
+    left: 0px;
+    top: 800px;
+    transform: scaleX(-1);
+    z-index: -90;
+    
+}
+
+.advantage_items {
+color: beige;
+display:block;
+flex-wrap: wrap;
+}
+ .advantage_title { 
+    position: relative;
+    width: 1068px;
+    height: 52px;
+    left: 178px;
+    top: 928px;
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+ }
+
+ .advantage_list {
+    position: relative;
+    display: flex;
+    left: 250px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    top: 950px;
+    width: 704px;
+    height: 93px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+ }
+
+ .advantage_list_item {
+    
+    width: 576px;
+    height: 68px;
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    
+ }
+
+ 
+ li{
+    list-style: circle;
+    padding: 10px;
+    
+  }
+
+.item_list {
+    
+    width: 576px;
+    height: 208px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8682B6;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    list-style: none;
+    display: none;
+    
+
+}
+
+.advantage_list_item:hover > li {
+    display: flex;
+    flex-grow: initial;
+}
+
+.big_img_product1 {
+    position: absolute;
+    width: 900px;
+    height: 1200px;
+    left: 650px;
+    top: 712px;
+    clip-path: inset(88px 40px 155px);
+    
+}
+
+.backshadow {
+    position: absolute;
+    width: 450px;
+    height: 1797px;
+    left: 1040px;
+    top: 820px;
+    z-index: -1;
+    clip-path: inset(0 0 50% 0);
+    background: radial-gradient(46.66% 49.33% at 50.15% 50.67%, #01AFCF 0%, rgba(5, 3, 40, 0) 100%);
+}
+
+.backshadow2 {
+    position: absolute;
+width: 1100px;
+height: 1797px;
+left: 687px;
+top: 1887px;
+z-index: -2;
+clip-path: inset(0 0 65% 0);
+background: radial-gradient(46.66% 49.33% at 50.15% 50.67%, #01AFCF 0%, rgba(5, 3, 40, 0) 100%);
+}
+
+.backshadow3 {
+    position: absolute;
+width: 617px;
+height: 1260px;
+left: 945px;
+top: 1610px;
+z-index: -2;
+clip-path: inset(0 0 28% 0);
+background: radial-gradient(46.66% 49.33% at 50.15% 50.67%, #E415C3 0%, rgba(5, 2, 40, 0) 100%);
+background-blend-mode: screen;
+mix-blend-mode: screen;
+opacity: 0.7;
+}

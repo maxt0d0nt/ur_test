@@ -10,6 +10,7 @@
 .header {
     justify-content: space-around;
     position:fixed;
+    height: 50px;
     top: 0;
     left: 0;
     width: 100%;
@@ -17,7 +18,7 @@
     transition: 0.7s;
     padding: 30px 20px;
     border-bottom: 1px white solid;
-    
+    z-index: 90;
 }
 
 .header.active{
@@ -40,7 +41,14 @@
 
 .header ul li{
   list-style: none;
+  padding: 10px;
+  
 }
+
+.header li:hover {
+    background-color: rgb(222, 211, 211);
+       
+  }
 
 .header ul li a{
     position: relative;
@@ -54,4 +62,9 @@
     transition: 0.7s;
   }
 
+  button:hover {
+        background: #F8306B;
+        color: #fff;
+      }
+  
   

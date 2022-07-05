@@ -8,7 +8,8 @@ export const Navbar = () => {
   const [header, setHeader] = useState(false)
 
   let changebackgrond = () => {
-    if (window.scrollY >= 5) {
+    if (window.scrollY > 0) {
+      
       setHeader(true);
     } else {
       setHeader(false);
