@@ -4,16 +4,9 @@
         
 }
 
-body {
+.Banner1 {
 
-    background-image: url("../../img/Banner1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-   
+    width: 1680px;
     
     }
 
@@ -29,6 +22,7 @@ width: 704px;
 height: 334px;
 left: 228px;
 top: 262px;
+z-index: 10;
 
 }
 
@@ -144,7 +138,7 @@ width: 413.39px;
 height: 152.3px;
 left: 370px;
 top: 320px;
-z-index: -10;
+
 
 background: linear-gradient(101.49deg, #FF0000 6.52%, #E415C3 110.39%);
 mix-blend-mode: normal;

@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import bk from '../../img/darkbackground.png';
-import './Advantage.css'
+import { FaAngleDown } from 'react-icons/fa';
+import { FaAngleUp } from 'react-icons/fa';
 import product2 from '../../img/producto2.png';
-import big_shadow from '../../img/backshadow.png';
+import './Advantage.css'
+
 
 export const Advantage = () => {
+
+    const [selected, setSelected] = useState(null)
+
+    const toggle = (i) => {
+        if (selected === i) {
+            return setSelected(null)
+        }
+
+        setSelected(i)
+    }
+
   return (
     <>
     <div className='advantage-container'>
@@ -13,34 +26,19 @@ export const Advantage = () => {
             <div className='advantage_title'>
                 <h1>Explore the advantages of UR\ UV-C Disinfectant</h1>
             </div>
-            <ul className='advantage_list'>
-
-                <li className='advantage_list_item'>
-                    Cleans floors without human supervision
-                    
-                        <li className='item_list'>loren ipsum</li>
-                
-                </li>
-
-                <li className='advantage_list_item'>
-                    Intelligently and safely avoids obstacles
-                    
-                        <li className='item_list'>the robot moves safely in spaces with glass, balustrades, stairs, carpets, that it is possible to exclude from the map objects that are temporarily in space without the need to re-map. They do not require additional infrastructure — markers, tapes, markers, etc. Ultimately, the customer / distributor will be able to do the first mapping themselves. Changing the environment does not cause the robot to be relocated, the robot “doesn’t get stupid”.</li>
-                    
-                </li>
-
-                <li className='advantage_list_item'>
-                    Provides the ability to adjust cleaning settings and parameters
-                        <li className='item_list'>loren ipsum</li>
-                </li>
-
-                <li className='advantage_list_item'>
-                    Fast to deploy, easy to use and controllable if necessary 
-                    
-                        <li className='item_list'>loren ipsum</li>
-                    
-                </li>
-            </ul>
+            < div className='wrapper'>
+                <div className='accodion'>
+                    {data.map((item, i) => (
+                        <div className='item'>
+                            <div className='title_wrapper' onClick={() => toggle(i)}>
+                                <span> {selected === i ? <FaAngleDown color="#F8306B" /> : <FaAngleUp color="#F8306B"/>} </span>
+                                <h3> {item.question} </h3>
+                            </div>
+                            <div className={selected === i ? 'content show' : 'content'} >{item.answer}</div>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
 
         <div className='big_img_product'>
@@ -54,3 +52,18 @@ export const Advantage = () => {
     </>
   )
 }
+
+const data = [
+    { question: 'Cleans floors without human supervision',
+    answer: 'lorem ipsum'
+}, 
+{ question: 'Intelligently & safely avoids obstacles',
+    answer: 'the robot moves safely in spaces with glass, balustrades, stairs, carpets, that it is possible to exclude from the map objects that are temporarily in space without the need to re-map. They do not require additional infrastructure — markers, tapes, markers, etc. Ultimately, the customer / distributor will be able to do the first mapping themselves. Changing the environment does not cause the robot to be relocated, the robot “doesn’t get stupid”.'
+}, 
+{ question: 'Provides the ability to adjust cleaning settings & parameters',
+    answer: 'lorem ipsum'
+}, 
+{ question: 'Fast to deploy easy to use and controllable if necessary',
+    answer: 'lorem ipsum'
+}
+]

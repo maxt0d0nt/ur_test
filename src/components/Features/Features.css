@@ -1,0 +1,27 @@
+.features_img {
+    position: relative;
+    width: 1680px;
+    height: 864px;
+    left: 0px;
+    top: 800px;
+    z-index: -200;
+    
+    }
+
+.floor_img {
+    position: relative;
+    width: 1337px;
+    height: 1033.09px;
+    left: -200px;
+    top: -900px;
+    z-index: -30;
+    
+}
+
+.furniture_img {
+    position: relative;
+    top: -800px
+    
+}
+
+   

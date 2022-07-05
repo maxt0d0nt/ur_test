@@ -1,11 +1,13 @@
 import React from 'react';
-import "./Main.css"
+import "./Main.css";
+import Banner1 from '../../img/Banner1.png';
 
 
 export const Main = () => {
   return (
     <>
     <div className='section_main'>
+    <img className="Banner1" src={Banner1} alt="UR_Banner" id='Banner1'/>
       <div className='title'>
         <div className='title_main'>
           <h1>Discover the autonomous UR/UV-C Disinfectant</h1>
