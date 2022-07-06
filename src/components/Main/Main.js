@@ -17,7 +17,7 @@ export const Main = () => {
                 <h2>Made to clean vast spaces smarter</h2>
                 
                   <p>UR Cleaner robot is a fully autonomous cleaning robot that can map surrounding areas, safely plan cleaning routes and navigate in public.</p>
-                  <button type="button"> READ MORE</button>
+                  <button className='buttonMain' type="button"> READ MORE</button>
               </div>
           </div>
       </div>

@@ -106,7 +106,7 @@ align-self: stretch;
 flex-grow: 0;
 }
 
-button {
+.buttonMain {
     
 display: flex;
 flex-direction: row;
