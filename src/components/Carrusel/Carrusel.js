@@ -33,7 +33,7 @@ const settings = {
     infinite: true,
     lazyLoad: true,
     speed: 300,
-    slidesToShow: 2,
+    slidesToShow: 3,
     centerMOde: true,
     centerPadding: 0,
     nextArrow: <NextArrow />,
@@ -44,11 +44,69 @@ const settings = {
   return (
     <div className='Carrusel'>
     <Slider {...settings}>
-        {images.map((img, idx) => (
-            <div className={idx === imageIndex ? "slide activeSlide" : 'slide'}>
-                <img src={img} alt={img} />
-            </div>
-        ))}
+    <div className='card-container'>
+      <div className='card max'>
+        <div className='card_img max'>
+          
+        </div>
+
+        <div className='card_title'>
+          <p>Route planning</p>
+        </div>
+
+        <div className='card_description'>
+          <p>Intelligent route planning and automatic re-mapping to avoid obstacles.</p>
+        </div>
+      </div>
+    </div>
+
+    <div className='card-container'>
+      <div className='card max'>
+        <div className='card_img max'>
+          
+        </div>
+
+        <div className='card_title'>
+          <p>Autonomously clean floors</p>
+        </div>
+
+        <div className='card_description'>
+          <p>Ability to autonomously clean floors following pre-mapped routes.</p>
+        </div>
+      </div>
+    </div>
+
+    <div className='card-container'>
+      <div className='card max'>
+        <div className='card_img max'>
+          
+        </div>
+
+        <div className='card_title'>
+          <p>Without human supervision.</p>
+        </div>
+
+        <div className='card_description'>
+          <p>Execution of tasks without human supervision.</p>
+        </div>
+      </div>
+    </div>
+
+    <div className='card-container'>
+      <div className='card max'>
+        <div className='card_img max'>
+          
+        </div>
+
+        <div className='card_title'>
+          <p>Route planning</p>
+        </div>
+
+        <div className='card_description'>
+          <p>Intelligent route planning and automatic re-mapping to avoid obstacles.</p>
+        </div>
+      </div>
+    </div>
     </Slider>
     </div>
   )

@@ -6,8 +6,8 @@ export const Keyfeatures = () => {
   return (
     <>
     <div className='card-container'>
-      <div className='card-active'>
-        <div className='card_img'>
+      <div className='card max'>
+        <div className='card_img max'>
           
         </div>
 

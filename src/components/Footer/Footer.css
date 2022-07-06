@@ -1,7 +1,7 @@
 .footer_img {
     position: absolute;
 width: 1680px;
-height: 2748px;
+height: 2898px;
 left: 0px;
 top: 2432px;
 z-index: -300;
@@ -13,7 +13,7 @@ z-index: -300;
     width: 1229px;
     height: 586px;
     left: 190px;
-    top: 3335px;
+    top: 3395px;
 }
 
 .table_container {
@@ -87,8 +87,8 @@ z-index: -300;
     position: relative;
     width: 1224px;
     height: 260px;
-    left: 228px;
-    top: 300px;
+    left: 200px;
+    top: -115px;
     z-index: -10;
 }
 
@@ -110,7 +110,7 @@ z-index: -300;
         color: #F8306B;
         font-weight: 700;
         font-size: 14px;
-        top: 20px;
+        top: -400px;
         left: 715px;
     
 }
@@ -130,14 +130,14 @@ z-index: -300;
     letter-spacing: -0.02em;
     color: #fff;
     z-index: 1;
-    top: 30px;
+    top: -380px;
 }
 
 /* ------------------------- footer ------------------------------*/
 
 .footer_container {
     position: relative;
-    top: 200px;
+    top: -200px;
     width: 1200px;
     left: 200px;
 }

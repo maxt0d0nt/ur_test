@@ -24,4 +24,13 @@
     
 }
 
+.carrusel-container {
+    position: relative;
+    width: 500px;
+    top: -1300px;
+    left: 850px;
+    margin: 0;
+   
+}
+
    
