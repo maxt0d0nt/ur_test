@@ -29,19 +29,19 @@ window.addEventListener('scroll', changebackgrond);
         <ul className="navbar-container">
               
           <li className="navitem">
-          <a className="navlink" href="#">PRODUCT</a>
+          <a className="navlink" href="/">PRODUCT</a>
           </li>
 
           <li className="navitem">
-          <a className="nav-link" href="#">COMPANY</a>
+          <a className="nav-link" href="/">COMPANY</a>
           </li>
 
           <li className="navitem">
-          <a className="navlink" href="#">SUPPORT</a>
+          <a className="navlink" href="/">SUPPORT</a>
           </li>
 
           <li className="navitem">
-          <a className="navlink" href="#">CONTACT</a>
+          <a className="navlink" href="/">CONTACT</a>
           </li>
         </ul>
       </div>

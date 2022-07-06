@@ -1,0 +1,124 @@
+.card-container {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    border: #000 solid 1px;
+    padding: auto;
+    margin: auto;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 24px 48px;
+    gap: 12px;
+    width: 288px;
+    height: 262px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: #000 solid 1px;
+    margin: auto;
+    top: 100px;
+    transition-property: background-color, width, height;
+    transition-duration: 1.5s;
+}
+
+.card_img {
+    
+    width: 64px;
+    height: 64px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 50%;
+    background: #D1CFE4;
+    transition: background-color 1s, width 1s, height 1s, top 1s, left 1s;
+    }
+
+.card_title {
+    
+    width: 240px;
+    height: 26px;
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8682B6;
+    transition-property: font-size, width, height, line-height, letter-spacing;
+    transition-duration: 1.5s;
+
+}
+
+.card_description {
+    width: 240px;
+    height: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D1CFE4;
+    transition-property: font-size, width, height, line-height, letter-spacing;
+    transition-duration: 1.5s;
+
+}
+
+/*----------------- cart active -------------------------*/
+
+.card-active {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 96px 32px 32px;
+    gap: 48px;
+    height: 350px;
+    width: 325px;
+    left: 852px;
+    background: #EFEFF5;
+    border-radius: 8px;
+    transition-property: background-color, width, height;
+    transition-duration: 1.5s;
+  
+    
+}
+
+.card-active .card_img {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 35px;
+    top: -35px;
+    background: #F8306B;
+    transition-property: background-color, width, height;
+    transition-duration: 1.5s;
+    }
+
+.card-active .card_title {
+    
+    width: 328px;
+    height: 68px;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    transition-property: font-size, width, height, line-height, letter-spacing;
+    transition-duration: 1.5s;
+
+}
+
+.card-active .card_description {
+    width: 328px;
+    height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #08001E;
+    transition-property: font-size, width, height, line-height, letter-spacing;
+    transition-duration: 1.5s;
+
+}
+

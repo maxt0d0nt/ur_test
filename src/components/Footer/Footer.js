@@ -132,74 +132,74 @@ export const Footer = () => {
           </div>
           <div class="col-5">
             <div className='productLink'>
-             <a className="desinfectiantLink" href="#">UR\ UV-C DISINFECTANT</a>
+             <a className="desinfectiantLink" href="/">UR\ UV-C DISINFECTANT</a>
             </div>
 
             <div className="productLink">
-              <a className="carrierLink" href="#">UR\ CARRIER</a>
+              <a className="carrierLink" href="/">UR\ CARRIER</a>
             </div>
 
             <div className="productLink">
-              <a className="cleanerLink" href="#">UR\ CLEANER</a>
+              <a className="cleanerLink" href="/">UR\ CLEANER</a>
             </div>
 
             <div className="productLink">
-              <a className="runnerLink" href="#">UR\ RUNNER</a>
+              <a className="runnerLink" href="/">UR\ RUNNER</a>
             </div>
           </div>
           
           <div class="col-5">
               <div className='companyLink>'>
-                <a className="newsLink" href="#">NEWS</a>
+                <a className="newsLink" href="/">NEWS</a>
               </div>
 
               <div className='companyLink'>
-                <a className="aboutLink" href="#">ABOUT US</a>
+                <a className="aboutLink" href="/">ABOUT US</a>
               </div>
 
               <div className='companyLink'>
-                <a className="joinLink" href="#">JOIN US</a>
+                <a className="joinLink" href="/">JOIN US</a>
               </div>
           </div>
           
           <div class="col-5">
               <div className='supportLink'>
-                <a className="knowledgeLink" href="#">KNOWLEDGE CENTER</a>
+                <a className="knowledgeLink" href="/">KNOWLEDGE CENTER</a>
               </div>
 
               <div className='supportLink'>
-                <a className="resourceLink" href="#">RESOURCES</a>
+                <a className="resourceLink" href="/">RESOURCES</a>
               </div>
 
               <div className='supportLink'>
-                <a className="caseLink" href="#">CASE STUDIES</a>
+                <a className="caseLink" href="/">CASE STUDIES</a>
               </div>
 
               <div className='supportLink'>
-                <a className="supportLink" href="#">SUPPORT CENTER</a>
+                <a className="supportLink" href="/">SUPPORT CENTER</a>
               </div>
 
               <div className='supportLink'>
-                <a className="contactLink" href="#">CONTACT</a>
+                <a className="contactLink" href="/">CONTACT</a>
               </div>
           </div>
         </div>
         <div class="row-2">
           <div class="col-2">
               <div className='SocialtLink'>
-                <a className="faceLink" href="#">
+                <a className="faceLink" href="/">
                   <img className="imgFace" src={facebook} alt="UR_logo_facebook" id='imgFace'/>
                 </a>
               </div>
 
               <div className='SocialtLink'>
-                <a className="linkedinLink" href="#">
+                <a className="linkedinLink" href="/">
                   <img className="imglinkedin" src={linkedin} alt="UR_logo_linkedin" id='imglinkedin'/>
                 </a>
               </div>
 
               <div className='SocialtLink'>
-                <a className="youtubeLink" href="#">
+                <a className="youtubeLink" href="/">
                   <img className="imgyoutube" src={youtube} alt="UR_logo_youtube" id='imgyoutube'/>
                 </a>
               </div>
