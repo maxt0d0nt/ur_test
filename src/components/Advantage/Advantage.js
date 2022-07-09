@@ -21,7 +21,7 @@ export const Advantage = () => {
   return (
     <>
     <div className='advantage-container'>
-    <img className="darkbackground" src={bk} alt="UR_product1" id='produ1'/>
+        <img className="darkbackground" src={bk} alt="UR_product1" id='produ1'/>
         <div className='advantage_items'>
             <div className='advantage_title'>
                 <h1>Explore the advantages of UR\ UV-C Disinfectant</h1>
@@ -46,9 +46,10 @@ export const Advantage = () => {
         </div>
 
         <div className='backshadow'></div>
+        <div className='backshadow2'></div>
+        <div className='backshadow3'></div>
     </div>
-    <div className='backshadow2'></div>
-    <div className='backshadow3'></div>
+    
     </>
   )
 }
@@ -56,14 +57,14 @@ export const Advantage = () => {
 const data = [
     { question: 'Cleans floors without human supervision',
     answer: 'lorem ipsum'
-}, 
-{ question: 'Intelligently & safely avoids obstacles',
-    answer: 'the robot moves safely in spaces with glass, balustrades, stairs, carpets, that it is possible to exclude from the map objects that are temporarily in space without the need to re-map. They do not require additional infrastructure — markers, tapes, markers, etc. Ultimately, the customer / distributor will be able to do the first mapping themselves. Changing the environment does not cause the robot to be relocated, the robot “doesn’t get stupid”.'
-}, 
-{ question: 'Provides the ability to adjust cleaning settings & parameters',
-    answer: 'lorem ipsum'
-}, 
-{ question: 'Fast to deploy easy to use and controllable if necessary',
-    answer: 'lorem ipsum'
-}
+    }, 
+    { question: 'Intelligently & safely avoids obstacles',
+        answer: 'the robot moves safely in spaces with glass, balustrades, stairs, carpets, that it is possible to exclude from the map objects that are temporarily in space without the need to re-map. They do not require additional infrastructure — markers, tapes, markers, etc. Ultimately, the customer / distributor will be able to do the first mapping themselves. Changing the environment does not cause the robot to be relocated, the robot “doesn’t get stupid”.'
+    }, 
+    { question: 'Provides the ability to adjust cleaning settings & parameters',
+        answer: 'lorem ipsum'
+    }, 
+    { question: 'Fast to deploy easy to use and controllable if necessary',
+        answer: 'lorem ipsum'
+    }
 ]

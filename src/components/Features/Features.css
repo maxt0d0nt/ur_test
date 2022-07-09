@@ -1,33 +1,36 @@
-.features_img {
+.features_container {
     position: relative;
     width: 1680px;
     height: 864px;
-    left: 0px;
-    top: 800px;
-    z-index: -200;
+}
+
+.features_img {
+    position: absolute;
     
+    z-index: -200;
+        
     }
 
 .floor_img {
-    position: relative;
-    width: 1337px;
-    height: 1033.09px;
-    left: -200px;
-    top: -900px;
+    position: absolute;
+    width: 937px;
+    height: 733.09px;
+    top:-100px;
     z-index: -30;
     
 }
 
 .furniture_img {
-    position: relative;
-    top: -800px
+    position: absolute;
+    top: 100px;
+    left: 50px;
     
 }
 
 .carrusel-container {
-    position: relative;
+    position: absolute;
     width: 500px;
-    top: -1300px;
+    top: 200px;
     left: 850px;
     margin: 0;
    

@@ -1,0 +1,76 @@
+.TechSpecContainer {
+    position: absolute;
+}
+
+.tech_spec_container {
+    position: absolute;
+    display: flex;
+    width: 1229px;
+    height: 586px;
+    left: 190px;
+    top: 100px;
+    
+}
+
+.table_container {
+    position: absolute;
+    width: 600px;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 40px;
+    border-bottom: 1px solid #191247
+}
+
+.row_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.col_title {
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    border-bottom: none;
+}
+
+.col_characteristic {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8682B6;
+    
+    ;
+}
+
+.col_specifications {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #EFEFF5;
+   
+    ;
+}
+
+.tech_img {
+    position: absolute;
+    width: 605px;
+    height: 578px;
+    left: 660px;
+    top: 27px
+    
+}

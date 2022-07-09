@@ -1,0 +1,56 @@
+.getInTouch_img {
+    position: relative;
+    width: 1224px;
+    height: 260px;
+    left: 200px;
+    top: 915px;
+    z-index: 10;
+}
+
+
+.contactUs {
+    position: relative;
+    width: 361px;
+    height: 84px;
+    left: 580px;
+    padding: 45px;
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #fff;
+    top: 650px;
+    z-index: 10;
+}
+
+.buttonContact {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 170px;
+    height: 48px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 24px;
+    border: none;
+    color: #F8306B;
+    font-weight: 700;
+    font-size: 14px;
+    top: 620px;
+    left: 720px;
+    z-index: 30;
+}
+
+    
+button:hover {
+    background:#F8306B
+    
+}

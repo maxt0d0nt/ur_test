@@ -65,7 +65,26 @@
 
 }
 
-/*----------------- cart active -------------------------*/
+.vector {
+position: absolute;
+top: 35px;
+left: 35px;
+transition-property: left, top;
+transition-duration: 1s;
+}
+
+#vector2 {
+    width: 40px;
+    height: 40px;
+}
+
+.button_card{
+    display: none;
+    
+}
+
+
+/*----------------- card active -------------------------*/
 
 .card-container:hover .card{
   
@@ -79,6 +98,23 @@
     z-index: 1;
   
     
+}
+
+.card-container:hover .vector {
+    top: 25px;
+    left: 25px;
+    height: 50%;
+    transition-property: left, top;
+    transition-duration: 1s;
+}
+
+.card-container:hover #vector2 {
+    top: 20px;
+    left: 20px;
+    height: 55px;
+    width: 55px;
+    transition-property: left, top;
+    transition-duration: 1s;
 }
 
 .card-container:hover .card_img {
@@ -116,3 +152,30 @@
 
 }
 
+.card-container:hover button {
+    display: block;
+    border-radius: 24px;
+    width: 110px;
+    height: 48px;
+    top: -20px;
+    position: relative;
+    color: #F8306B ;
+    border: 1px solid #D1CFE4;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+        
+}
+
+button:hover {
+    background: #f193af ;
+    
+}
+
+.arrow-next {
+    position: relative;
+   
+        
+}

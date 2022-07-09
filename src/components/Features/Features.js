@@ -8,16 +8,18 @@ import { Carrusel } from '../Carrusel/Carrusel'
 export const Features = () => {
   return (
     <>
-      <img className="features_img" src={feature} alt="UR_feature_img" id='feature_img'/>
+      
       <div className='features_container'>
+          <img className="features_img" src={feature} alt="UR_feature_img" id='feature_img'/>
         <div className='features_img'>
           <img className="floor_img" src={floor} alt="UR_floor_img" id='floor_img'/>
         </div>
           <img className="furniture_img" src={furniture} alt="UR_furniture_img" id='furniture_img'/>
+        <div className='carrusel-container'>
+          < Carrusel />
+        </div>
       </div>
-      <div className='carrusel-container'>
-            < Carrusel />
-          </div>
+    
         
         
        

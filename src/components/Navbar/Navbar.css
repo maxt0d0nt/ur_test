@@ -8,12 +8,13 @@
 
 
 .header {
+    display: flex;
     justify-content: space-around;
     position:fixed;
     height: 50px;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 1640px;
     display: flex;
     transition: 0.7s;
     padding: 30px 20px;
@@ -23,6 +24,7 @@
 
 .header.active{
     background-color: #000;
+    
 }
 
 .nav {

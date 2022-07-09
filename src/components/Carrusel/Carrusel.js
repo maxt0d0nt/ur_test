@@ -1,33 +1,25 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Slider from "react-slick";
-import card from '../../img/NewsCard.png'
-import card1 from '../../img/NewsCard.png'
-import card2 from '../../img/NewsCard.png'
-import { FaArrowLeft } from 'react-icons/fa';
-import { FaArrowRight } from 'react-icons/fa'
+import { FaArrowRight } from 'react-icons/fa';
+import vector1 from '../../img/Vectcarruselor.png';
+import vector2 from '../../img/Vector2.png';
+import vector3 from '../../img/Vector3.png';
 import './Carrusel.css';
 
-const images = [card, card1, card2]
+
+
 
 export const Carrusel = () => {
 
+
 const NextArrow = ({onClick}) => {
     return (
-        <div className='arrow next' onClick={onClick}>
+        <div className='arrow-next' onClick={onClick}>
             <FaArrowRight />
         </div>
     );
 };
 
-const PrevArrow = ({onClick}) => {
-    return (
-        <div className='arrow prev' onClick={onClick}>
-            <FaArrowLeft />
-        </div>
-    );
-};
-
-const [imageIndex, setImageIndex] = useState(0);
 
 const settings = {
     infinite: true,
@@ -36,78 +28,78 @@ const settings = {
     slidesToShow: 3,
     centerMOde: true,
     centerPadding: 0,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    beforeChange: (current, next) => setImageIndex(next),
+    nextArrow: < NextArrow/ >,
+    dots: true,
+  
 }
 
   return (
     <div className='Carrusel'>
-    <Slider {...settings}>
-    <div className='card-container'>
-      <div className='card max'>
-        <div className='card_img max'>
-          
-        </div>
-
-        <div className='card_title'>
-          <p>Route planning</p>
-        </div>
-
-        <div className='card_description'>
-          <p>Intelligent route planning and automatic re-mapping to avoid obstacles.</p>
-        </div>
-      </div>
-    </div>
-
-    <div className='card-container'>
-      <div className='card max'>
-        <div className='card_img max'>
-          
-        </div>
-
-        <div className='card_title'>
-          <p>Autonomously clean floors</p>
-        </div>
-
-        <div className='card_description'>
-          <p>Ability to autonomously clean floors following pre-mapped routes.</p>
+      <Slider {...settings}>
+      <div className='card-container'>
+        <div className='card'>
+          <div className='card_img'>
+            <img className="vector" src={vector1} alt="UR_vector1" id='vector1'/>
+          </div>
+          <div className='card_title'>
+            <p>Route planning</p>
+          </div>
+          <div className='card_description'>
+            <p>Intelligent route planning and automatic re-mapping to avoid obstacles.</p>
+          </div>
+            <button className='button_card' onClick={NextArrow} type='button'>NEXT</button>
+            
         </div>
       </div>
-    </div>
 
-    <div className='card-container'>
-      <div className='card max'>
-        <div className='card_img max'>
-          
-        </div>
+      <div className='card-container'>
+        <div className='card'>
+          <div className='card_img'>
+            <img className="vector" src={vector2} alt="UR_vector1" id='vector2'/>
 
-        <div className='card_title'>
-          <p>Without human supervision.</p>
-        </div>
-
-        <div className='card_description'>
-          <p>Execution of tasks without human supervision.</p>
-        </div>
-      </div>
-    </div>
-
-    <div className='card-container'>
-      <div className='card max'>
-        <div className='card_img max'>
-          
-        </div>
-
-        <div className='card_title'>
-          <p>Route planning</p>
-        </div>
-
-        <div className='card_description'>
-          <p>Intelligent route planning and automatic re-mapping to avoid obstacles.</p>
+          </div>
+          <div className='card_title'>
+            <p>Autonomously clean floors</p>
+          </div>
+          <div className='card_description'>
+            <p>Ability to autonomously clean floors following pre-mapped routes.</p>
+          </div>
+          <button className='button_card' type='button'>NEXT</button>
         </div>
       </div>
-    </div>
-    </Slider>
+
+      <div className='card-container'>
+        <div className='card'>
+          <div className='card_img'>
+            <img className="vector" src={vector3} alt="UR_vector1" id='vector3'/>
+          </div>
+          <div className='card_title'>
+            <p>Without human supervision.</p>
+          </div>
+          <div className='card_description'>
+            <p>Execution of tasks without human supervision.</p>
+          </div>
+          <button className='button_card' type='button'>NEXT</button>
+        </div>
+      </div>
+
+      <div className='card-container'>
+        <div className='card'>
+          <div className='card_img'>
+            <img className="vector" src={vector2} alt="UR_vector1" id='vector2'/>
+          </div>
+          <div className='card_title'>
+            <p>Autonomously clean floors</p>
+          </div>
+          <div className='card_description'>
+            <p>Ability to autonomously clean floors following pre-mapped routes.</p>
+          </div>
+          <button className='button_card' type='button'>NEXT</button>
+        </div>
+      </div>
+
+      
+      </Slider>
     </div>
   )
 }
