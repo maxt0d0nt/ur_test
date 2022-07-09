@@ -54,3 +54,10 @@ button:hover {
     background:#F8306B
     
 }
+
+.touch_img{
+    position: absolute;
+    top: 1000px;
+    left: 1100px;
+    z-index: 50;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './GetInTouch.css';
 import getInTouch from '../../img/Rectangle 21.svg';
+import Touch from '../../img/Rectangle 20.png'
 
 export const GetInTouch = () => {
   return (
@@ -12,6 +13,7 @@ export const GetInTouch = () => {
                 <p>Schedule a call with our sales manager</p>
                 </div>
                 <button className='buttonContact' type='button'>CONTACT US</button>
+                <img className="touch_img" src={Touch} alt="imagen" id='touch_img'/>
         </div>
         
     </div>

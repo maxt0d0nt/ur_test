@@ -42,7 +42,7 @@
     width: 704px;
     height: 600px;
     left: 228px;
-    padding: 90px;
+    padding-top: 115px;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
@@ -178,4 +178,15 @@ background: radial-gradient(46.66% 49.33% at 50.15% 50.67%, #E415C3 0%, rgba(5, 
 background-blend-mode: screen;
 mix-blend-mode: screen;
 opacity: 0.7;
+}
+
+.imgBG1 {
+   position: absolute;
+   top: -200px;
+   right: 0;
+}
+
+.imgBG2 {
+   position: absolute;
+   top: -550px
 }

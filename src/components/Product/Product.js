@@ -4,6 +4,12 @@ import stamp from '../../img/Stamp.png';
 import product1 from '../../img/product.png';
 import shadow1 from '../../img/Ellipse 40.png';
 import shadow2 from '../../img/Ellipse 51.png';
+import line from '../../img/Line 1.png';
+import circle from '../../img/Ellipse 68.png';
+import InnerCircle from '../../img/Ellipse 76.png';
+
+
+
 export const Product = () => {
   return (
     <>
@@ -18,6 +24,13 @@ export const Product = () => {
         <div className='charac'>
           <p>UR Cleaner offers impressive manoeuvrability, durability and scalability of performance that is crucial to any organisation seeking cost efficiencies and smooth optimisation of processes. UR Cleaner presents a viable solution to clients looking for more efficient service delivery. Large facilities? Commercial spaces? Nothing is impossible for UR Cleaner.</p>
         </div>
+      </div>
+      <div className='line'>
+            <img className="circleDown" src={circle} alt="line" id='line'/>
+            <img className="innerCircleDown" src={InnerCircle} alt="line" id='line'/>
+            <img className="line_img" src={line} alt="line" id='line'/>
+            <img className="circle" src={circle} alt="line" id='line'/>
+            <img className="innerCircle" src={InnerCircle} alt="line" id='line'/>
       </div>
       <div className='img_product'>
         <img className="img_product1" src={product1} alt="UR_product1" id='product1'/>
