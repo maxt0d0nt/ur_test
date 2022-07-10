@@ -6,7 +6,6 @@
 
 .features_img {
     position: absolute;
-    
     z-index: -200;
         
     }
@@ -30,7 +29,7 @@
 .carrusel-container {
     position: absolute;
     width: 500px;
-    top: 200px;
+    top: 100px;
     left: 850px;
     margin: 0;
    

@@ -10,29 +10,29 @@ export const URFooter = () => {
     <>
                              
     <div className='footer_container'>
-        <div class="row-4">
-        <div class="col-4-logo">
+        <div className="row-4">
+        <div className="col-4-logo">
             <img className="logo" src={ur_logo} alt="UR_Logo" id='ur_logo'/>
         </div>
-        <div class="col-4">Products</div>
-        <div class="col-4">Company</div>
-        <div class="col-4">Support</div>
+        <div className="col-4">Products</div>
+        <div className="col-4">Company</div>
+        <div className="col-4">Support</div>
         </div>
-        <div class="row-5">
-        <div class="col-5-logo">
+        <div className="row-5">
+        <div className="col-5-logo">
             <p>HQ:</p>
             <p>Citybridge House,</p> 
             <p>57 Southwark Street,</p>
             <p>London SE1 1RU,</p> 
             <p>United Kingdom info@unitedrobots.co</p>
         </div>
-        <div class="col-5-logo">
+        <div className="col-5-logo">
             <p>R&D Office:</p>
             <p>  Prymasa Tysiąclecia 46, </p>
             <p>01-242 Warszawa, </p>
             <p>Poland</p>
         </div>
-        <div class="col-5">
+        <div className="col-5">
             <div className='productLink'>
             <a className="desinfectiantLink" href="/">UR\ UV-C DISINFECTANT</a>
             </div>
@@ -50,7 +50,7 @@ export const URFooter = () => {
             </div>
         </div>
         
-        <div class="col-5">
+        <div className="col-5">
             <div className='companyLink>'>
                 <a className="newsLink" href="/">NEWS</a>
             </div>
@@ -64,7 +64,7 @@ export const URFooter = () => {
             </div>
         </div>
         
-        <div class="col-5">
+        <div className="col-5">
             <div className='supportLink'>
                 <a className="knowledgeLink" href="/">KNOWLEDGE CENTER</a>
             </div>
@@ -86,8 +86,8 @@ export const URFooter = () => {
             </div>
         </div>
         </div>
-        <div class="row-2">
-        <div class="col-2">
+        <div className="row-2">
+        <div className="col-2">
             <div className='SocialtLink'>
                 <a className="faceLink" href="/">
                 <img className="imgFace" src={facebook} alt="UR_logo_facebook" id='imgFace'/>
@@ -106,8 +106,8 @@ export const URFooter = () => {
                 </a>
             </div>
         </div>
-        <div class="col-2-copyright">
-        Copyright United Robots Ltd. 2016-2021. All right reserved.
+        <div className="col-2-copyright">
+            Copyright United Robots Ltd. 2016-2021. All right reserved.
         </div>
         </div>
     </div>

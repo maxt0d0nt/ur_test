@@ -1,37 +1,29 @@
 import React from 'react'
 import Slider from "react-slick";
-import { FaArrowRight } from 'react-icons/fa';
 import vector1 from '../../img/Vectcarruselor.png';
 import vector2 from '../../img/Vector2.png';
 import vector3 from '../../img/Vector3.png';
 import './Carrusel.css';
 
 
-
-
 export const Carrusel = () => {
 
-
-const NextArrow = ({onClick}) => {
-    return (
-        <div className='arrow-next' onClick={onClick}>
-            <FaArrowRight />
-        </div>
-    );
-};
-
-
-const settings = {
+  const NextArrow = () => {
+  console.log('next')
+  
+  };
+  
+  const settings = {
     infinite: true,
     lazyLoad: true,
     speed: 300,
     slidesToShow: 3,
-    centerMOde: true,
+    centerMode: true,
     centerPadding: 0,
-    nextArrow: < NextArrow/ >,
-    dots: true,
-  
-}
+    nextArrow: <NextArrow />,
+    dots: true
+    };
+    
 
   return (
     <div className='Carrusel'>
@@ -47,7 +39,7 @@ const settings = {
           <div className='card_description'>
             <p>Intelligent route planning and automatic re-mapping to avoid obstacles.</p>
           </div>
-            <button className='button_card' onClick={NextArrow} type='button'>NEXT</button>
+            <button className='button_card' onClick={() => NextArrow()}>NEXT</button>
             
         </div>
       </div>

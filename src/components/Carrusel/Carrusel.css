@@ -2,7 +2,7 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .Carrusel {
-  width: 150%
+    width: 150%
 }
 
 .card-container {
@@ -66,11 +66,11 @@
 }
 
 .vector {
-position: absolute;
-top: 35px;
-left: 35px;
-transition-property: left, top;
-transition-duration: 1s;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    transition-property: left, top;
+    transition-duration: 1s;
 }
 
 #vector2 {
@@ -95,6 +95,7 @@ transition-duration: 1s;
     background: #EFEFF5;
     transition-property: background-color, width, height;
     transition-duration: 1s;
+    cursor: grab;
     z-index: 1;
   
     
@@ -172,10 +173,4 @@ transition-duration: 1s;
 button:hover {
     background: #f193af ;
     
-}
-
-.arrow-next {
-    position: relative;
-   
-        
 }

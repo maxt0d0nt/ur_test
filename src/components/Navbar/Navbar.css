@@ -49,8 +49,8 @@
 }
 
 .header li:hover {
-    background-color: rgb(72, 66, 66);
-    border-radius: 25px;
+  background-color: rgb(72, 66, 66);
+  border-radius: 25px;
        
   }
 
@@ -67,8 +67,8 @@
   }
 
   button:hover {
-        background: #F8306B;
-        color: #fff;
+    background: #F8306B;
+    color: #fff;
       }
   
   

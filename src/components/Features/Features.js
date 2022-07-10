@@ -8,7 +8,6 @@ import { Carrusel } from '../Carrusel/Carrusel'
 export const Features = () => {
   return (
     <>
-      
       <div className='features_container'>
           <img className="features_img" src={feature} alt="UR_feature_img" id='feature_img'/>
         <div className='features_img'>
@@ -19,12 +18,6 @@ export const Features = () => {
           < Carrusel />
         </div>
       </div>
-    
-        
-        
-       
-    
     </>
-    
   )
 }

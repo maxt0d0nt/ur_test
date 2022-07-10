@@ -49,12 +49,6 @@
     z-index: 30;
 }
 
-    
-button:hover {
-    background:#F8306B
-    
-}
-
 .touch_img{
     position: absolute;
     top: 1000px;

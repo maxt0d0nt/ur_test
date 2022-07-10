@@ -7,6 +7,21 @@ import imgBG1 from '../../img/Rectangle25A.png';
 import imgBG2 from '../../img/Rectangle25B.png';
 import './Advantage.css'
 
+const data = [
+    { question: 'Cleans floors without human supervision',
+    answer: 'Lorem ipsum dolor sit amet. Nam fugit debitis eum vitae consequatur aut ratione reiciendis et vitae galisum. Aut facere vitae aut dignissimos sequi aut aspernatur omnis est corporis officia non temporibus quia? Et rerum illum ut quis galisum est deleniti eaque id nulla distinctio aut ipsa unde.'
+    }, 
+    { question: 'Intelligently & safely avoids obstacles',
+        answer: 'the robot moves safely in spaces with glass, balustrades, stairs, carpets, that it is possible to exclude from the map objects that are temporarily in space without the need to re-map. They do not require additional infrastructure — markers, tapes, markers, etc. Ultimately, the customer / distributor will be able to do the first mapping themselves. Changing the environment does not cause the robot to be relocated, the robot “doesn’t get stupid”.'
+    }, 
+    { question: 'Provides the ability to adjust cleaning settings & parameters',
+        answer: 'Lorem ipsum dolor sit amet. Nam fugit debitis eum vitae consequatur aut ratione reiciendis et vitae galisum. Aut facere vitae aut dignissimos sequi aut aspernatur omnis est corporis officia non temporibus quia? Et rerum illum ut quis galisum est deleniti eaque id nulla distinctio aut ipsa unde.'
+    }, 
+    { question: 'Fast to deploy easy to use and controllable if necessary',
+        answer: 'Lorem ipsum dolor sit amet. Nam fugit debitis eum vitae consequatur aut ratione reiciendis et vitae galisum. Aut facere vitae aut dignissimos sequi aut aspernatur omnis est corporis officia non temporibus quia? Et rerum illum ut quis galisum est deleniti eaque id nulla distinctio aut ipsa unde.'
+    }
+]
+
 
 export const Advantage = () => {
 
@@ -23,8 +38,8 @@ export const Advantage = () => {
   return (
     <>
     <div className='advantage-container'>
-        <img className="imgBG1" src={imgBG1} id='imgBG1'/>
-        <img className="imgBG2" src={imgBG2} id='imgBG2'/>
+        <img className="imgBG1" src={imgBG1} id='imgBG1' alt='img'/>
+        <img className="imgBG2" src={imgBG2} id='imgBG2' alt='img'/>
         <img className="darkbackground" src={bk} alt="UR_product1" id='produ1'/>
         <div className='advantage_items'>
             <div className='advantage_title'>
@@ -33,7 +48,7 @@ export const Advantage = () => {
             < div className='wrapper'>
                 <div className='accodion'>
                     {data.map((item, i) => (
-                        <div className='item'>
+                        <div className='item' key={i}>
                             <div className='title_wrapper' onClick={() => toggle(i)}>
                                 <span> {selected === i ? <FaAngleDown color="#F8306B" /> : <FaAngleUp color="#F8306B"/>} </span>
                                 <h3> {item.question} </h3>
@@ -58,17 +73,3 @@ export const Advantage = () => {
   )
 }
 
-const data = [
-    { question: 'Cleans floors without human supervision',
-    answer: 'Lorem ipsum dolor sit amet. Nam fugit debitis eum vitae consequatur aut ratione reiciendis et vitae galisum. Aut facere vitae aut dignissimos sequi aut aspernatur omnis est corporis officia non temporibus quia? Et rerum illum ut quis galisum est deleniti eaque id nulla distinctio aut ipsa unde.'
-    }, 
-    { question: 'Intelligently & safely avoids obstacles',
-        answer: 'the robot moves safely in spaces with glass, balustrades, stairs, carpets, that it is possible to exclude from the map objects that are temporarily in space without the need to re-map. They do not require additional infrastructure — markers, tapes, markers, etc. Ultimately, the customer / distributor will be able to do the first mapping themselves. Changing the environment does not cause the robot to be relocated, the robot “doesn’t get stupid”.'
-    }, 
-    { question: 'Provides the ability to adjust cleaning settings & parameters',
-        answer: 'Lorem ipsum dolor sit amet. Nam fugit debitis eum vitae consequatur aut ratione reiciendis et vitae galisum. Aut facere vitae aut dignissimos sequi aut aspernatur omnis est corporis officia non temporibus quia? Et rerum illum ut quis galisum est deleniti eaque id nulla distinctio aut ipsa unde.'
-    }, 
-    { question: 'Fast to deploy easy to use and controllable if necessary',
-        answer: 'Lorem ipsum dolor sit amet. Nam fugit debitis eum vitae consequatur aut ratione reiciendis et vitae galisum. Aut facere vitae aut dignissimos sequi aut aspernatur omnis est corporis officia non temporibus quia? Et rerum illum ut quis galisum est deleniti eaque id nulla distinctio aut ipsa unde.'
-    }
-]

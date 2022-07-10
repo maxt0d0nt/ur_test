@@ -23,25 +23,25 @@ window.addEventListener('scroll', changebackgrond);
    
       < div className={header ? 'header active' : 'header'}>
         <a className='ur_logo' href='/'>
-        <img className="logo" src={ur_logo} alt="UR_Logo" id='ur_logo'/>
+          <img className="logo" src={ur_logo} alt="UR_Logo" id='ur_logo'/>
         </a>
           
         <ul className="navbar-container">
               
           <li className="navitem">
-          <a className="navlink" href="/">PRODUCT</a>
+            <a className="navlink" href="/">PRODUCT</a>
           </li>
 
           <li className="navitem">
-          <a className="nav-link" href="/">COMPANY</a>
+            <a className="nav-link" href="/">COMPANY</a>
           </li>
 
           <li className="navitem">
-          <a className="navlink" href="/">SUPPORT</a>
+            <a className="navlink" href="/">SUPPORT</a>
           </li>
 
           <li className="navitem">
-          <a className="navlink" href="/">CONTACT</a>
+            <a className="navlink" href="/">CONTACT</a>
           </li>
         </ul>
       </div>

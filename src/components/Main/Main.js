@@ -22,8 +22,6 @@ export const Main = () => {
           </div>
       </div>
    
-    
-    
     <div className='image1'></div>
     <div className='imagen2'></div>
     </div>

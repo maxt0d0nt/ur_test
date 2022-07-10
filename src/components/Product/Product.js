@@ -8,8 +8,6 @@ import line from '../../img/Line 1.png';
 import circle from '../../img/Ellipse 68.png';
 import InnerCircle from '../../img/Ellipse 76.png';
 
-
-
 export const Product = () => {
   return (
     <>
